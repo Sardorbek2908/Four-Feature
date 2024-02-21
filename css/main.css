@@ -1,0 +1,141 @@
+@import url(./fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --red: #EA5454;
+    --lightblue: #44D3D2;
+    --orange: #FCAE4A;
+    --blue: #549EF2;
+    --dark-blue: #4D4F62;
+    --white: #FAFAFA;
+    --Poppins: "Poppins";
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 165px;
+    background-color: rgb(253, 253, 253);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title {
+    color: var(--dark-blue);
+    font-family: var(--Poppins);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.title {
+    color: var(--dark-blue);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+.site-text {
+    width: 540px;
+    color: var(--dark-blue);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 13px;
+    letter-spacing: 0.104px;
+    margin-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+
+.card-header {
+    width: 350px;
+    height: 4px;
+    border-radius: 8px 8px 0 0;
+    background: var(--lightblue);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+
+.card-title {
+    color: var(--dark-blue);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.bule {
+    background-color: var(--lightblue);
+}
+.red {
+    background-color: var(--red);
+}
+.dark-blue {
+    background-color: var(--dark-blue);
+}
+.orange {
+    background-color: var(--orange);
+}
+
+.card-text {
+    width: 286px;
+    display: block;
+    color: var(--dark-blue);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    padding-left: 32px;
+}
+.card-image {
+    margin-top: 40px;
+    margin-left: 254px;
+}
+
+.cards {
+    margin: 30px;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background: #FFF;
+    overflow: hidden;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.box {
+    transform: translateY(50%);
+}
+.karma {
+    margin-left: 417px;
+}
